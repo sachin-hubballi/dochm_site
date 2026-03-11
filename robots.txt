@@ -1,0 +1,40 @@
+# Doctor HMS - Robots.txt
+# https://doctorhms.com
+
+User-agent: *
+Allow: /
+Disallow: /components/
+Disallow: /*.bak$
+Disallow: /*.sql$
+Disallow: /*.log$
+
+# Sitemap
+Sitemap: https://doctorhms.com/sitemap.xml
+
+# AI Crawlers - explicitly allow for AI search visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
