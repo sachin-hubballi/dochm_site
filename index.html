@@ -1323,46 +1323,52 @@
                                 </div>
                             </div>
                             <div class="order-0 lg:order-1">
-                                <form id="demoRequestForm" class="demo-form vstack gap-2 p-3 sm:p-6 xl:p-8"
-                                    action="https://doctorhms.in/leads/formsubmit.php" method="POST" novalidate>
-                                    <p class="fs-6 text-dark dark:text-white text-opacity-70 mb-2">Fill in your details
-                                        below and we'll schedule a personalized demo for you. Our healthcare technology
-                                        experts will walk you through all the features of Doctor HMS.</p>
-                                    <div>
-                                        <input id="demo_name" name="name"
-                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                                            type="text" placeholder="Your Name *" required>
-                                        <div class="invalid-feedback">Please enter your name.</div>
-                                    </div>
-                                    <div>
-                                        <input id="demo_mobile" name="mobile"
-                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                                            type="tel" placeholder="Mobile Number *" pattern="[0-9]{10,15}" required>
-                                        <div class="invalid-feedback">Please enter a valid mobile number (10-15 digits).
+                                <form id="leadForm" class="demo-form vstack gap-2 p-3 sm:p-6 xl:p-8" novalidate>
+                                    <div id="form-wrapper">
+                                        <p class="fs-6 text-dark dark:text-white text-opacity-70 mb-2">Fill in your
+                                            details
+                                            below and we'll schedule a personalized demo for you. Our healthcare
+                                            technology
+                                            experts will walk you through all the features of Doctor HMS.</p>
+                                        <div>
+                                            <input id="demo_name" name="name"
+                                                class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                                type="text" placeholder="Your Name *" required>
+                                            <div class="invalid-feedback">Please enter your name.</div>
                                         </div>
+                                        <div>
+                                            <input id="demo_mobile" name="mobile"
+                                                class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                                type="tel" placeholder="Mobile Number *" pattern="[0-9]{10,15}"
+                                                required>
+                                            <div class="invalid-feedback">Please enter a valid mobile number (10-15
+                                                digits).
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <input id="demo_email" name="email"
+                                                class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                                type="email" placeholder="Email *" required>
+                                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                                        </div>
+                                        <div>
+                                            <input id="demo_hospital" name="hospital"
+                                                class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                                type="text" placeholder="Hospital / Clinic / Lab Name *" required>
+                                            <div class="invalid-feedback">Please enter your Hospital/Clinic/Lab name.
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <input id="demo_place" name="place"
+                                                class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                                type="text" placeholder="Place *" required>
+                                            <div class="invalid-feedback">Please enter your place/location.</div>
+                                        </div>
+                                        <button class="btn btn-primary btn-md text-white mt-2" type="submit">Request
+                                            Demo</button>
+                                        <p class="text-center">For immediate assistance, email us at <a class="uc-link"
+                                                href="mailto:support@doctorhms.com">support@doctorhms.com</a></p>
                                     </div>
-                                    <div>
-                                        <input id="demo_email" name="email"
-                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                                            type="email" placeholder="Email *" required>
-                                        <div class="invalid-feedback">Please enter a valid email address.</div>
-                                    </div>
-                                    <div>
-                                        <input id="demo_hospital" name="hospital"
-                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                                            type="text" placeholder="Hospital / Clinic / Lab Name *" required>
-                                        <div class="invalid-feedback">Please enter your Hospital/Clinic/Lab name.</div>
-                                    </div>
-                                    <div>
-                                        <input id="demo_place" name="place"
-                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                                            type="text" placeholder="Place *" required>
-                                        <div class="invalid-feedback">Please enter your place/location.</div>
-                                    </div>
-                                    <button class="btn btn-primary btn-md text-white mt-2" type="submit">Request
-                                        Demo</button>
-                                    <p class="text-center">For immediate assistance, email us at <a class="uc-link"
-                                            href="mailto:support@doctorhms.com">support@doctorhms.com</a></p>
                                 </form>
                             </div>
                         </div>
