@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctor HMS - Hospital Management System</title>
-    <meta name="description" content="Revolutionize hospital management with cutting-edge SaaS technology. Streamline operations, enhance patient care, and drive growth with our all-in-one hospital management system.">
-    <meta name="keywords" content="hospital management system, healthcare software, medical management, patient management, hospital software, healthcare saas, medical records, appointment scheduling, hospital billing">
+    <meta name="description"
+        content="Revolutionize hospital management with cutting-edge SaaS technology. Streamline operations, enhance patient care, and drive growth with our all-in-one hospital management system.">
+    <meta name="keywords"
+        content="hospital management system, healthcare software, medical management, patient management, hospital software, healthcare saas, medical records, appointment scheduling, hospital billing">
     <meta name="theme-color" content="#178d72">
 
     <!-- Open Graph Tags -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Doctor HMS - Hospital Management System" />
-    <meta property="og:description" content="Revolutionize hospital management with cutting-edge SaaS technology. Streamline operations, enhance patient care, and drive growth." />
+    <meta property="og:description"
+        content="Revolutionize hospital management with cutting-edge SaaS technology. Streamline operations, enhance patient care, and drive growth." />
     <meta property="og:url" content="" />
     <meta property="og:site_name" content="Doctor HMS" />
     <meta property="og:image" content="/assets/images/common/seo-image.jpg" />
@@ -23,19 +27,31 @@
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Doctor HMS - Hospital Management System">
-    <meta name="twitter:description" content="Revolutionize hospital management with cutting-edge SaaS technology. Streamline operations, enhance patient care, and drive growth.">
+    <meta name="twitter:description"
+        content="Revolutionize hospital management with cutting-edge SaaS technology. Streamline operations, enhance patient care, and drive growth.">
     <meta name="twitter:image" content="/assets/images/common/seo-image.jpg">
 
-    <link rel="canonical" href="" />
+    <!-- preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    
     <!-- preload head styles -->
     <link rel="preload" href="/assets/css/fonts.css" as="style">
-    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="preload" href="/assets/css/unicons.min.css" as="style">
-    <link rel="stylesheet" href="/assets/css/unicons.min.css">
-    <!-- <link rel="preload" href="/assets/css/swiper-bundle.min.css" as="style"> -->
-    <!-- <link rel="preload" href="/assets/css/magic-cursor.min.css" as="style"> -->
+    <link rel="preload" href="/assets/js/uni-core/css/uni-core.min.css" as="style">
+    <link rel="preload" href="/assets/css/theme/main.purge.css" as="style">
+
+    <!-- Deferred Styles -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300..700;1,300..700&family=Inter:wght@300..700&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap"
+        media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans:300,400,500,700" media="print"
+        onload="this.media='all'">
+    <link rel="stylesheet" href="/assets/css/fonts.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/assets/css/unicons.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/assets/js/uni-core/css/uni-core.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/assets/css/theme/main.purge.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/assets/css/theme/theme-thirteen.purge.css" media="print" onload="this.media='all'">
 
     <!-- preload footer scripts -->
     <link rel="preload" href="/assets/js/libs/jquery.min.js" as="script">
@@ -74,28 +90,14 @@
     <script defer src="/assets/js/app-head-bs.js"></script>
 
 
-    <!-- include uni-core components -->
-    <link rel="stylesheet" href="/assets/js/uni-core/css/uni-core.min.css">
-
-    <!-- include styles -->
-    <link rel="stylesheet" href="/assets/css/fonts.css">
-    <link rel="stylesheet" href="/assets/css/unicons.min.css">
-    <!-- <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css"> -->
-    <!-- <link rel="stylesheet" href="/assets/css/prettify.min.css"> -->
-    <!-- <link rel="stylesheet" href="/assets/css/magic-cursor.min.css"> -->
-
-    <!-- include main style -->
-    <link rel="stylesheet" href="/assets/css/theme/main.purge.css">
-    <link rel="stylesheet" href="/assets/css/theme/theme-thirteen.purge.css">
-
-    <!-- Form validation styles (needed because purged CSS may not include Bootstrap validation classes) -->
-  
+    <!-- include scripts -->
+    <script defer src="/assets/js/uni-core/js/uni-core-bundle.min.js"></script>
     <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vrbmycy5kc");
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "vrbmycy5kc");
     </script>
 
     <style>
@@ -103,6 +105,7 @@
             border-color: #dc3545 !important;
             box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
         }
+
         .invalid-feedback {
             display: none;
             width: 100%;
@@ -110,42 +113,47 @@
             font-size: 0.875em;
             color: #dc3545;
         }
-        .is-invalid ~ .invalid-feedback {
+
+        .is-invalid~.invalid-feedback {
             display: block;
         }
     </style>
 
     <!-- include scripts -->
-    <script defer src="/assets/js/uni-core/js/uni-core-bundle.min.js"></script>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6902f391ba61e0194e3427cc/1j8poesbh';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PXVZH4VQ');</script>
-<!-- End Google Tag Manager -->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6902f391ba61e0194e3427cc/1j8poesbh';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PXVZH4VQ');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
-<body class="uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden disable-cursor">
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXVZH4VQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->  
-<!--  Menu panel -->
+<body
+    class="uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden disable-cursor">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXVZH4VQ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--  Menu panel -->
     <div id="uc-menu-panel" data-uc-offcanvas="overlay: true;">
         <div class="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white">
 
@@ -155,7 +163,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <img class="w-32px" src="/assets/images/icons/Doctor_HMS_text_dark.svg" alt="Doctor HMS">
                     </a>
                 </div>
-                <button class="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 icon-3 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all" type="button">
+                <button
+                    class="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 icon-3 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all"
+                    type="button">
                     <i class="unicon-close"></i>
                 </button>
             </header>
@@ -227,8 +237,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </li> -->
                     <li><a href='about.html'>About</a></li>
                     <li><a href='contact.html'>Contact</a></li>
-                    
-                    
+
+
                     <li class="hr opacity-10 my-1"></li>
                     <li><a href='https://app.doctorhms.com/' target="_blank">Log in</a></li>
                     <li><a href="demorequest.html">Request a Demo</a></li>
@@ -241,27 +251,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <a href="#"><i class="unicon-logo-pinterest icon-2"></i></a>
                     </li>
                 </ul>
-                
+
             </div>
 
         </div>
     </div>
-<!-- Header start -->
-    <header class="uc-header header-thirteen uc-navbar-sticky-wrap z-999" data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
-        <nav class="uc-navbar-container uc-navbar-float ft-tertiary z-1" data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;">
+    <!-- Header start -->
+    <header class="uc-header header-thirteen uc-navbar-sticky-wrap z-999"
+        data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
+        <nav class="uc-navbar-container uc-navbar-float ft-tertiary z-1"
+            data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;">
             <div class="uc-navbar-main" style="--uc-nav-height: 100px">
                 <div class="container">
-                    <div class="uc-navbar min-h-64px lg:min-h-96px text-dark dark:text-white" data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;">
+                    <div class="uc-navbar min-h-64px lg:min-h-96px text-dark dark:text-white"
+                        data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;">
                         <div class="uc-navbar-left">
                             <div class="uc-logo ltr:ms-1 rtl:me-1">
                                 <a class='panel text-none' href='index.html' style='width: 140px;'>
-                                    <img class="dark:d-none" src="/assets/images/icons/Doctor_HMS_text_dark.svg" alt="Doctor HMS">
-                                    <img class="d-none dark:d-block" src="/assets/images/common/logo-13-dark.svg" alt="Doctor HMS">
+                                    <img class="dark:d-none" src="/assets/images/icons/Doctor_HMS_text_dark.svg"
+                                        alt="Doctor HMS">
+                                    <img class="d-none dark:d-block" src="/assets/images/common/logo-13-dark.svg"
+                                        alt="Doctor HMS">
                                 </a>
                             </div>
                         </div>
                         <div class="uc-navbar-center">
-                            <ul class="uc-navbar-nav fw-medium gap-3 xl:gap-5 d-none lg:d-flex" style="--uc-nav-height: 100px">
+                            <ul class="uc-navbar-nav fw-medium gap-3 xl:gap-5 d-none lg:d-flex"
+                                style="--uc-nav-height: 100px">
                                 <!-- <li>
                                     <a href="#" class="gap-1">Services<span data-uc-navbar-parent-icon></span></a>
                                     <div class="uc-dropbar uc-dropbar-top p-0 ft-primary text-unset fs-6 fw-normal hide-scrollbar border-top rounded-0 overflow-hidden shadow-xl bg-white dark:bg-gray-900" data-uc-drop=" offset: 0; boundary: true;  stretch: x; animation: uc-animation-slide-top-small; duration: 150;">
@@ -618,17 +634,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         </div>
                                     </div>
                                 </li> -->
-                                
+
                                 <li><a href='about.html'>About</a></li>
                                 <li><a href='contact.html'>Contact</a></li>
                                 <li><a href='https://app.doctorhms.com/' target="_blank">Login</a></li>
                             </ul>
                         </div>
                         <div class="uc-navbar-right">
-                            <a class='btn btn-md fs-6 lg:px-3 rounded-pill text-white dark:text-dark bg-dark dark:bg-white hover:bg-opacity-90 dark:hover:bg-opacity-80 d-none lg:d-flex' href='demorequest.html'>
+                            <a class='btn btn-md fs-6 lg:px-3 rounded-pill text-white dark:text-dark bg-dark dark:bg-white hover:bg-opacity-90 dark:hover:bg-opacity-80 d-none lg:d-flex'
+                                href='demorequest.html'>
                                 <span>Request a Demo</span>
                             </a>
-                            <a href="#uc-menu-panel" class="uc-menu-trigger btn btn-md btn-primary w-40px h-40px rounded-circle p-0 d-inline-flex lg:d-none" data-uc-toggle></a>
+                            <a href="#uc-menu-panel"
+                                class="uc-menu-trigger btn btn-md btn-primary w-40px h-40px rounded-circle p-0 d-inline-flex lg:d-none"
+                                data-uc-toggle></a>
                         </div>
                     </div>
                 </div>
@@ -642,44 +661,77 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Section start -->
         <div id="hero_header" class="hero-header section panel overflow-hidden">
             <div class="position-absolute top-0 start-0 end-0 w-100 h-100">
-                <div class="h-4/5 sm:h-2/3 bg-gradient-45n from-tertiary to-quaternary rounded-bottom-2 xl:rounded-bottom-3 lg:mx-2 lg:mt-0 dark:d-none"></div>
-                <div class="h-4/5 sm:h-2/3 bg-gray-800 lg:rounded-bottom-2 xl:rounded-bottom-3 lg:mx-2 lg:mt-0 d-none dark:d-block"></div>
+                <div
+                    class="h-4/5 sm:h-2/3 bg-gradient-45n from-tertiary to-quaternary rounded-bottom-2 xl:rounded-bottom-3 lg:mx-2 lg:mt-0 dark:d-none">
+                </div>
+                <div
+                    class="h-4/5 sm:h-2/3 bg-gray-800 lg:rounded-bottom-2 xl:rounded-bottom-3 lg:mx-2 lg:mt-0 d-none dark:d-block">
+                </div>
                 <div class="h-100 bg-secondary dark:bg-gray-800 rounded-top-2 xl:rounded-top-3 lg:mx-2 mt-2"></div>
             </div>
             <div class="section-outer panel pt-8 lg:pt-9 xl:pt-10">
                 <div class="container">
                     <div class="section-inner panel">
-                        <div class="d-none lg:d-block" data-anime="targets: >*; scale: [0, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: anime.stagger(150, {start: 500});">
-                            <img src="/assets/images/vectors/finger.svg" alt="Icon" class="d-inline-block position-absolute w-64px xl:w-80px dark:text-white lg:d-none xl:d-block" style="top: 33%; left: 33%;" data-uc-svg>
-                            <img src="/assets/images/vectors/finger.svg" alt="Icon" class="d-inline-block position-absolute w-64px xl:w-80px dark:text-white xl:d-none" style="top: 33%; left: 28%;" data-uc-svg>
-                            <img src="/assets/images/vectors/star-01.svg" alt="Icon" class="d-inline-block position-absolute w-32px xl:w-48px dark:text-white" style="top: 1%; left: 8%;" data-uc-svg>
-                            <img src="/assets/images/vectors/star-01.svg" alt="Icon" class="d-inline-block position-absolute w-20px xl:w-32px dark:text-white" style="top: 8%; right: 6%;" data-uc-svg>
-                            <img src="/assets/images/vectors/star-02.svg" alt="Icon" class="d-inline-block position-absolute w-18px xl:w-24px dark:text-white" style="top: 5%; left: 13%;" data-uc-svg>
-                            <img src="/assets/images/vectors/star-02.svg" alt="Icon" class="d-inline-block position-absolute w-20px xl:w-32px dark:text-white" style="top: 24%; left: 7%;" data-uc-svg>
-                            <img src="/assets/images/vectors/star-02.svg" alt="Icon" class="d-inline-block position-absolute w-20px xl:w-32px dark:text-white" style="top: 28%; right: 21%;" data-uc-svg>
+                        <div class="d-none lg:d-block"
+                            data-anime="targets: >*; scale: [0, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: anime.stagger(150, {start: 500});">
+                            <img src="/assets/images/vectors/finger.svg" alt="Icon"
+                                class="d-inline-block position-absolute w-64px xl:w-80px dark:text-white lg:d-none xl:d-block"
+                                style="top: 33%; left: 33%;" data-uc-svg>
+                            <img src="/assets/images/vectors/finger.svg" alt="Icon"
+                                class="d-inline-block position-absolute w-64px xl:w-80px dark:text-white xl:d-none"
+                                style="top: 33%; left: 28%;" data-uc-svg>
+                            <img src="/assets/images/vectors/star-01.svg" alt="Icon"
+                                class="d-inline-block position-absolute w-32px xl:w-48px dark:text-white"
+                                style="top: 1%; left: 8%;" data-uc-svg>
+                            <img src="/assets/images/vectors/star-01.svg" alt="Icon"
+                                class="d-inline-block position-absolute w-20px xl:w-32px dark:text-white"
+                                style="top: 8%; right: 6%;" data-uc-svg>
+                            <img src="/assets/images/vectors/star-02.svg" alt="Icon"
+                                class="d-inline-block position-absolute w-18px xl:w-24px dark:text-white"
+                                style="top: 5%; left: 13%;" data-uc-svg>
+                            <img src="/assets/images/vectors/star-02.svg" alt="Icon"
+                                class="d-inline-block position-absolute w-20px xl:w-32px dark:text-white"
+                                style="top: 24%; left: 7%;" data-uc-svg>
+                            <img src="/assets/images/vectors/star-02.svg" alt="Icon"
+                                class="d-inline-block position-absolute w-20px xl:w-32px dark:text-white"
+                                style="top: 28%; right: 21%;" data-uc-svg>
                         </div>
                         <div class="row child-cols-12 justify-center items-center g-8">
                             <div class="lg:col-10">
                                 <div class="panel vstack gap-4 lg:gap-6 xl:gap-8">
-                                    <div class="panel vstack justify-center items-center gap-2 px-2 pt-4 lg:pt-6 text-center">
-                                        <span class="fs-7 fw-semibold text-uppercase text-primary dark:text-quaternary" data-anime="translateY: [10, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: 250;">REVOLUTIONIZE Your Hospital’s Efficiency Instantly</span>
-                                        <h1 class="h2 md:h1 lg:display-6 xl:display-5 m-0" data-anime="translateY: [10, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: 250;">
-                                            Smart Hospital Management Software 
-                                            <span class="text-primary dark:text-quaternary" data-uc-splitext="types: 'chars'" data-anime="targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50);">
-                                                <br>For Smarter Healthcare 
+                                    <div
+                                        class="panel vstack justify-center items-center gap-2 px-2 pt-4 lg:pt-6 text-center">
+                                        <span class="fs-7 fw-semibold text-uppercase text-primary dark:text-quaternary"
+                                            data-anime="translateY: [10, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: 250;">REVOLUTIONIZE
+                                            Your Hospital’s Efficiency Instantly</span>
+                                        <h1 class="h2 md:h1 lg:display-6 xl:display-5 m-0"
+                                            data-anime="translateY: [10, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: 250;">
+                                            Smart Hospital Management Software
+                                            <span class="text-primary dark:text-quaternary"
+                                                data-uc-splitext="types: 'chars'"
+                                                data-anime="targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50);">
+                                                <br>For Smarter Healthcare
                                             </span>
                                         </h1>
-                                        <p class="fs-6 xl:fs-5 xl:px-9 dark:text-white text-opacity-70" data-uc-splitext="types: 'words'" data-anime="targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});">Streamline Your Hospital Operations & Reduce Administrative Time by 60% and drive growth with our all-in-one hospital management system</p>
-                                        <div class="vstack gap-2 items-center my-1 lg:my-3" data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
+                                        <p class="fs-6 xl:fs-5 xl:px-9 dark:text-white text-opacity-70"
+                                            data-uc-splitext="types: 'words'"
+                                            data-anime="targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});">
+                                            Streamline Your Hospital Operations & Reduce Administrative Time by 60% and
+                                            drive growth with our all-in-one hospital management system</p>
+                                        <div class="vstack gap-2 items-center my-1 lg:my-3"
+                                            data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
                                             <div class="">
-                                                <a class='btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto' href='#demoRequest'>
+                                                <a class='btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto'
+                                                    href='#demoRequest'>
                                                     <span>Request a Demo</span>
                                                 </a>
                                             </div>
-                                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps! Experience the Future of Healthcare</span>
+                                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3
+                                                Easy Steps! Experience the Future of Healthcare</span>
                                         </div>
                                     </div>
-                                    <div class="panel rounded-2" data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;">
+                                    <div class="panel rounded-2"
+                                        data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;">
                                         <img src="/assets/images/doctorhms_dashboard.jpg" alt="Dashboard DoctorHMS">
                                     </div>
                                 </div>
@@ -693,55 +745,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Section end -->
         <!-- Section start -->
         <div id="main_features" class="main-features section panel overflow-hidden">
-            <div class="section-outer panel py-6 sm:py-8 xl:py-10 lg:mx-2 rounded-bottom-2 xl:rounded-bottom-3 bg-secondary dark:bg-gray-800">
+            <div
+                class="section-outer panel py-6 sm:py-8 xl:py-10 lg:mx-2 rounded-bottom-2 xl:rounded-bottom-3 bg-secondary dark:bg-gray-800">
                 <div class="container">
                     <div class="section-inner panel">
-                        <div class="section-heading panel vstack items-center gap-2 xl:gap-3 mb-6 sm:mb-8 xl:mb-9 mx-auto text-center" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
-                            <h2 class="h3 sm:h2 xl:h1 m-0"> Why Top-Rated Hospitals Choose Us <br><span class="text-primary dark:text-quaternary">Over Legacy Systems Every Time ?</span></h2>
-                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200 xl:px-6">With an Average of 60% reduction in administrative overhead, Trusted by thousands of healthcare facilities across the country, millions of patient records managed daily. With Simplified Operations and Superior Outcomes, Our hospital management system is designed to address the unique challenges of healthcare organizations, delivering unparalleled efficiency, security, and reliability.</p>
+                        <div class="section-heading panel vstack items-center gap-2 xl:gap-3 mb-6 sm:mb-8 xl:mb-9 mx-auto text-center"
+                            data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                            <h2 class="h3 sm:h2 xl:h1 m-0"> Why Top-Rated Hospitals Choose Us <br><span
+                                    class="text-primary dark:text-quaternary">Over Legacy Systems Every Time ?</span>
+                            </h2>
+                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200 xl:px-6">With an Average of 60%
+                                reduction in administrative overhead, Trusted by thousands of healthcare facilities
+                                across the country, millions of patient records managed daily. With Simplified
+                                Operations and Superior Outcomes, Our hospital management system is designed to address
+                                the unique challenges of healthcare organizations, delivering unparalleled efficiency,
+                                security, and reliability.</p>
                         </div>
                         <div class="section-content panel">
-                            <div class="row child-cols-12 md:child-cols-6 col-match g-2 lg:g-4" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                            <div class="row child-cols-12 md:child-cols-6 col-match g-2 lg:g-4"
+                                data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
                                 <div>
-                                    <div class="feature-item panel overflow-hidden p-2 bg-white border border-1 dark:bg-opacity-5 dark:text-white rounded-2 xl:rounded-3">
+                                    <div
+                                        class="feature-item panel overflow-hidden p-2 bg-white border border-1 dark:bg-opacity-5 dark:text-white rounded-2 xl:rounded-3">
                                         <div class="panel vstack items-start gap-1 xl:gap-2 p-1 pb-2 lg:p-3 xl:p-4">
-                                            <h4 class="h4 xl:h4 m-0 text-inherit">Eliminate <span class="text-primary dark:text-quaternary">40%</span> of Medical Errors Caused by Disorganized Records</h4>
-                                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Eliminate the risk of misplaced files, illegible handwriting, and scattered records across departments. Access complete patient histories instantly from any device, anywhere in your facility.</p>
+                                            <h4 class="h4 xl:h4 m-0 text-inherit">Eliminate <span
+                                                    class="text-primary dark:text-quaternary">40%</span> of Medical
+                                                Errors Caused by Disorganized Records</h4>
+                                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Eliminate the risk
+                                                of misplaced files, illegible handwriting, and scattered records across
+                                                departments. Access complete patient histories instantly from any
+                                                device, anywhere in your facility.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="feature-item panel overflow-hidden p-2 bg-white border border-1 dark:bg-opacity-5 dark:text-white rounded-2 xl:rounded-3">
+                                    <div
+                                        class="feature-item panel overflow-hidden p-2 bg-white border border-1 dark:bg-opacity-5 dark:text-white rounded-2 xl:rounded-3">
                                         <div class="panel vstack items-start gap-1 xl:gap-2 p-1 pb-2 lg:p-3 xl:p-4">
-                                            <h4 class="h4 xl:h4 m-0 text-inherit">Recover <span class="text-primary dark:text-quaternary">Lakhs</span> in Annual Revenue Lost to Billing & Audit Failures</h4>
-                                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Prevent costly claim rejections, coding mistakes, and compliance penalties that drain your hospital's profitability. Automated billing ensures accurate charges and seamless audit trails every time.</p>
+                                            <h4 class="h4 xl:h4 m-0 text-inherit">Recover <span
+                                                    class="text-primary dark:text-quaternary">Lakhs</span> in Annual
+                                                Revenue Lost to Billing & Audit Failures</h4>
+                                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Prevent costly
+                                                claim rejections, coding mistakes, and compliance penalties that drain
+                                                your hospital's profitability. Automated billing ensures accurate
+                                                charges and seamless audit trails every time.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="feature-item panel overflow-hidden p-2 bg-white border border-1 dark:bg-opacity-5 dark:text-white rounded-2 xl:rounded-3">
+                                    <div
+                                        class="feature-item panel overflow-hidden p-2 bg-white border border-1 dark:bg-opacity-5 dark:text-white rounded-2 xl:rounded-3">
                                         <div class="panel vstack items-start gap-1 xl:gap-2 p-1 pb-2 lg:p-3 xl:p-4">
-                                           <h4 class="h4 xl:h4 m-0 text-inherit">Reduce Administrative Burden by <span class="text-primary dark:text-quaternary">60%</span> and Boost Staff Productivity</h4>
-                                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Transform overwhelmed administrators into efficient care coordinators. Automate scheduling, reporting, and routine tasks so your team focuses on patient care instead of endless documentation.</p>
+                                            <h4 class="h4 xl:h4 m-0 text-inherit">Reduce Administrative Burden by <span
+                                                    class="text-primary dark:text-quaternary">60%</span> and Boost Staff
+                                                Productivity</h4>
+                                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Transform
+                                                overwhelmed administrators into efficient care coordinators. Automate
+                                                scheduling, reporting, and routine tasks so your team focuses on patient
+                                                care instead of endless documentation.</p>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div>
-                                    <div class="feature-item panel overflow-hidden p-2 bg-white border border-1 dark:bg-opacity-5 dark:text-white rounded-2 xl:rounded-3">
+                                    <div
+                                        class="feature-item panel overflow-hidden p-2 bg-white border border-1 dark:bg-opacity-5 dark:text-white rounded-2 xl:rounded-3">
                                         <div class="panel vstack items-start gap-1 xl:gap-2 p-1 pb-2 lg:p-3 xl:p-4">
-                                            <h4 class="h4 xl:h4 m-0 text-inherit">Protect Your Hospital <span class="text-primary dark:text-quaternary">24x7</span> from Devastating Data Breaches & Loss</h4>
-                                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Safeguard sensitive patient information with high security and automated backups. Meet our compliance standards effortlessly. Stay calm knowing your data is protected.</p>
+                                            <h4 class="h4 xl:h4 m-0 text-inherit">Protect Your Hospital <span
+                                                    class="text-primary dark:text-quaternary">24x7</span> from
+                                                Devastating Data Breaches & Loss</h4>
+                                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Safeguard sensitive
+                                                patient information with high security and automated backups. Meet our
+                                                compliance standards effortlessly. Stay calm knowing your data is
+                                                protected.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="section-footer panel vstack gap-2 items-center mt-6 sm:mt-8 xl:mt-9" data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
-                            <a href="#demoRequest" class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
+                        <div class="section-footer panel vstack gap-2 items-center mt-6 sm:mt-8 xl:mt-9"
+                            data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
+                            <a href="#demoRequest"
+                                class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
                                 <span>Request a Demo</span>
                             </a>
-                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps! Experience the Future of Healthcare!</span>
+                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps!
+                                Experience the Future of Healthcare!</span>
                         </div>
                     </div>
                 </div>
@@ -753,146 +842,190 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Section start -->
         <div id="key_features" class="key-features section panel overflow-hidden">
             <div class="section-outer panel py-6 sm:py-8 xl:py-10 lg:mx-2 mt-2">
-            <div class="position-absolute top-0 start-0 end-0 w-100 h-100 bg-gradient-45n from-quaternary to-tertiary rounded-2 xl:rounded-3 dark:d-none"></div>
-            <div class="container">
-                <div class="section-inner panel">
-                <div class="section-heading panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 xl:mb-9 max-w-700px mx-auto text-center" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
-                    <h2 class="h3 sm:h2 xl:h1 m-0">Everything You Need to Manage Your Hospital, <br><span class="text-primary dark:text-quaternary">All in One Platform</span></h2>
+                <div
+                    class="position-absolute top-0 start-0 end-0 w-100 h-100 bg-gradient-45n from-quaternary to-tertiary rounded-2 xl:rounded-3 dark:d-none">
                 </div>
-                <div class="section-content panel">
-                    <div class="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-3 xl:g-4" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
-                    
-                     <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/opd_patient.png" alt="Out Patients" data-uc-svg>
+                <div class="container">
+                    <div class="section-inner panel">
+                        <div class="section-heading panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 xl:mb-9 max-w-700px mx-auto text-center"
+                            data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                            <h2 class="h3 sm:h2 xl:h1 m-0">Everything You Need to Manage Your Hospital, <br><span
+                                    class="text-primary dark:text-quaternary">All in One Platform</span></h2>
                         </div>
-                        <div class="panel">
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">Out Patients</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Manage and track all outpatient visits efficiently.</p>
+                        <div class="section-content panel">
+                            <div class="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-3 xl:g-4"
+                                data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/opd_patient.png" alt="Out Patients"
+                                                data-uc-svg>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="vstack gap-1">
+                                                <h3 class="title h5 lg:h4 m-0">Out Patients</h3>
+                                                <p class="desc fs-6 text-gray-400 dark:text-gray-200">Manage and track
+                                                    all outpatient visits efficiently.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/ipd_patient.png" alt="In Patients"
+                                                data-uc-svg>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="vstack gap-1">
+                                                <h3 class="title h5 lg:h4 m-0">In Patients</h3>
+                                                <p class="desc fs-6 text-gray-400 dark:text-gray-200">Monitor and manage
+                                                    admitted patient care seamlessly.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/daycare_icon.png" alt="Day Care Management"
+                                                data-uc-svg>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="vstack gap-1">
+                                                <h3 class="title h5 lg:h4 m-0">Day Care Management</h3>
+                                                <p class="desc fs-6 text-gray-400 dark:text-gray-200">Handle short-term
+                                                    procedures and day care patients easily.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/laboratory_icon.png" alt="Laboratory Reports"
+                                                data-uc-svg>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="vstack gap-1">
+                                                <h3 class="title h5 lg:h4 m-0">Laboratory Reports</h3>
+                                                <p class="desc fs-6 text-gray-400 dark:text-gray-200">Generate, store,
+                                                    and access lab reports instantly.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/digitalrecords_icon.png"
+                                                alt="Patient Management" data-uc-svg>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="vstack gap-1">
+                                                <h3 class="title h5 lg:h4 m-0">Patient Records Management</h3>
+                                                <p class="desc fs-6 text-gray-400 dark:text-gray-200">Centralize and
+                                                    manage all patient records securely.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/bill_patient.png" alt="Bills & Invoicing"
+                                                data-uc-svg>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="vstack gap-1">
+                                                <h3 class="title h5 lg:h4 m-0">Billing & Invoicing</h3>
+                                                <p class="desc fs-6 text-gray-400 dark:text-gray-200">Automate billing
+                                                    and invoicing for faster payments.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/doctor_icon.png" alt="Doctor Management"
+                                                data-uc-svg>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="vstack gap-1">
+                                                <h3 class="title h5 lg:h4 m-0">Doctor's Portal</h3>
+                                                <p class="desc fs-6 text-gray-400 dark:text-gray-200">Doctors manage
+                                                    schedules, notes, and patient care.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/reports_icon.png" alt="Reports & Registers"
+                                                data-uc-svg>
+                                        </div>
+                                        <div class="panel"></div>
+                                        <div class="vstack gap-1">
+                                            <h3 class="title h5 lg:h4 m-0">Reports & Registers</h3>
+                                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Access detailed
+                                                reports and hospital registers anytime.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div
+                                        class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
+                                        <div class="icon-box">
+                                            <img class="w-72px h-72px text-primary dark:text-quaternary"
+                                                src="/assets/images/icons/insurance_icon.png" alt="feature-icon"
+                                                data-uc-svg>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="vstack gap-1">
+                                                <h3 class="title h5 lg:h4 m-0">Insurance Management</h3>
+                                                <p class="desc fs-6 text-gray-400 dark:text-gray-200">Manage insurance
+                                                    claims and compliance efficiently.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                     <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/ipd_patient.png" alt="In Patients" data-uc-svg>
-                        </div>
-                        <div class="panel">
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">In Patients</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Monitor and manage admitted patient care seamlessly.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                     <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/daycare_icon.png" alt="Day Care Management" data-uc-svg>
-                        </div>
-                        <div class="panel">
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">Day Care Management</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Handle short-term procedures and day care patients easily.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/laboratory_icon.png" alt="Laboratory Reports" data-uc-svg>
-                        </div>
-                        <div class="panel">
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">Laboratory Reports</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Generate, store, and access lab reports instantly.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/digitalrecords_icon.png" alt="Patient Management" data-uc-svg>
-                        </div>
-                        <div class="panel">
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">Patient Records Management</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Centralize and manage all patient records securely.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/bill_patient.png" alt="Bills & Invoicing" data-uc-svg>
-                        </div>
-                        <div class="panel">
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">Billing & Invoicing</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Automate billing and invoicing for faster payments.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                       
-                    <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/doctor_icon.png" alt="Doctor Management" data-uc-svg>
-                        </div>
-                        <div class="panel">
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">Doctor's Portal</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Doctors manage schedules, notes, and patient care.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/reports_icon.png" alt="Reports & Registers" data-uc-svg>
-                        </div>
-                        <div class="panel"></div>
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">Reports & Registers</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Access detailed reports and hospital registers anytime.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="features-item vstack justify-between gap-4 px-3 py-4 xl:p-5 rounded-2 bg-white dark:bg-opacity-5">
-                        <div class="icon-box">
-                            <img class="w-72px h-72px text-primary dark:text-quaternary" src="/assets/images/icons/insurance_icon.png" alt="feature-icon" data-uc-svg>
-                        </div>
-                        <div class="panel">
-                            <div class="vstack gap-1">
-                            <h3 class="title h5 lg:h4 m-0">Insurance Management</h3>
-                            <p class="desc fs-6 text-gray-400 dark:text-gray-200">Manage insurance claims and compliance efficiently.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="section-footer panel vstack gap-2 items-center mt-6 sm:mt-8 xl:mt-9" data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
-                    <!-- <a href="#" class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
+                        <div class="section-footer panel vstack gap-2 items-center mt-6 sm:mt-8 xl:mt-9"
+                            data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
+                            <!-- <a href="#" class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
                     <span>Explore All Features</span>
                     </a>
                     <span class="fs-7 text-gray-900 dark:text-white">See how Doctor HMS can transform your hospital</span> -->
-                    <a href="#demoRequest" class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
-                        <span>Request a Demo</span>
-                    </a>
-                    <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps! Experience the Future of Healthcare!</span>
+                            <a href="#demoRequest"
+                                class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
+                                <span>Request a Demo</span>
+                            </a>
+                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps!
+                                Experience the Future of Healthcare!</span>
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </div>
             </div>
         </div>
 
@@ -903,17 +1036,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="section-outer panel py-6 sm:py-8 xl:py-10 lg:mx-2 bg-white dark:bg-gray-900">
                 <div class="container">
                     <div class="section-inner panel">
-                        <div class="section-heading panel vstack items-center gap-2 xl:gap-3 mb-6 sm:mb-8 xl:mb-9 max-w-700px mx-auto text-center" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
-                            <h2 class="h3 sm:h2 xl:h1 m-0">Doctor HMS already Loved by <br><span class="text-primary dark:text-quaternary">Our Community </span></h2>
-                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">See how we've transformed healthcare organizations like yours</p>
+                        <div class="section-heading panel vstack items-center gap-2 xl:gap-3 mb-6 sm:mb-8 xl:mb-9 max-w-700px mx-auto text-center"
+                            data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                            <h2 class="h3 sm:h2 xl:h1 m-0">Doctor HMS already Loved by <br><span
+                                    class="text-primary dark:text-quaternary">Our Community </span></h2>
+                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">See how we've transformed
+                                healthcare organizations like yours</p>
                         </div>
                         <div class="section-content panel">
-                            <div class="row child-cols-12 md:child-cols-6 col-match g-4 lg:g-6" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                            <div class="row child-cols-12 md:child-cols-6 col-match g-4 lg:g-6"
+                                data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
                                 <div>
-                                    <div class="testimonial-item panel p-4 lg:p-6 bg-gray-25 dark:bg-gray-800 rounded-2">
+                                    <div
+                                        class="testimonial-item panel p-4 lg:p-6 bg-gray-25 dark:bg-gray-800 rounded-2">
                                         <div class="panel vstack gap-1">
                                             <blockquote class="fs-6 xl:fs-5 dark:text-white">
-                                                "This system has drastically reduced our administrative burden, allowing us to focus more on patient care. The integration was seamless and the support team is exceptional."
+                                                "This system has drastically reduced our administrative burden, allowing
+                                                us to focus more on patient care. The integration was seamless and the
+                                                support team is exceptional."
                                             </blockquote>
                                             <div class="rating hstack gap-1">
                                                 <i class="icon icon-1 unicon-star-filled text-yellow"></i>
@@ -925,17 +1065,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <div class="author hstack gap-1">
                                                 <div class="meta vstack gap-narrow">
                                                     <h6 class="h6 m-0 dark:text-white">Dr. Jim Carter</h6>
-                                                    <span class="fs-7 text-gray-400 dark:text-gray-300">General Surgeon</span>
+                                                    <span class="fs-7 text-gray-400 dark:text-gray-300">General
+                                                        Surgeon</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="testimonial-item panel p-4 lg:p-6 bg-gray-25 dark:bg-gray-800 rounded-2">
+                                    <div
+                                        class="testimonial-item panel p-4 lg:p-6 bg-gray-25 dark:bg-gray-800 rounded-2">
                                         <div class="panel vstack gap-1">
                                             <blockquote class="fs-6 xl:fs-5 dark:text-white">
-                                                "Doctor HMS has completely transformed our daily operations. Patient admissions are faster, billing is error-free, and our staff collaboration has improved. It’s a must-have for any modern hospital."
+                                                "Doctor HMS has completely transformed our daily operations. Patient
+                                                admissions are faster, billing is error-free, and our staff
+                                                collaboration has improved. It’s a must-have for any modern hospital."
                                             </blockquote>
                                             <div class="rating hstack gap-1">
                                                 <i class="icon icon-1 unicon-star-filled text-yellow"></i>
@@ -947,7 +1091,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <div class="author hstack gap-1">
                                                 <div class="meta vstack gap-narrow">
                                                     <h6 class="h6 m-0 dark:text-white">Mr. Rajesh Gupta</h6>
-                                                    <span class="fs-7 text-gray-400 dark:text-gray-300">Nephrologist</span>
+                                                    <span
+                                                        class="fs-7 text-gray-400 dark:text-gray-300">Nephrologist</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -960,11 +1105,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <span>Read More Success Stories</span>
                             </a>
                         </div> -->
-                        <div class="section-footer panel vstack gap-2 items-center mt-6 sm:mt-8 xl:mt-9" data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
-                            <a href="#demoRequest" class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
+                        <div class="section-footer panel vstack gap-2 items-center mt-6 sm:mt-8 xl:mt-9"
+                            data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
+                            <a href="#demoRequest"
+                                class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
                                 <span>Request a Demo</span>
                             </a>
-                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps! Experience the Future of Healthcare!</span>
+                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps!
+                                Experience the Future of Healthcare!</span>
                         </div>
                     </div>
                 </div>
@@ -975,7 +1123,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- Section start -->
         <div id="cta" class="cta section panel overflow-hidden">
-            <div class="section-outer panel overflow-hidden lg:mx-2 my-2 rounded-2 xl:rounded-3 max-h-550px sm:max-h-700px xl:max-h-850px pt-6 lg:pt-8 xl:pt-9">
+            <div
+                class="section-outer panel overflow-hidden lg:mx-2 my-2 rounded-2 xl:rounded-3 max-h-550px sm:max-h-700px xl:max-h-850px pt-6 lg:pt-8 xl:pt-9">
                 <div class="position-absolute top-0 start-0 end-0 w-100 h-100">
                     <div class="w-100 h-100 bg-gradient-45n from-quaternary to-tertiary dark:d-none"></div>
                     <div class="w-100 h-100 bg-gray-800 d-none dark:d-block"></div>
@@ -983,29 +1132,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="container">
                     <div class="section-inner panel vstack gap-4 lg:gap-6 xl:gap-8">
                         <div class="panel">
-                            <div class="row child-cols-12 justify-between items-center g-3 sm:g-4 text-center lg:text-start">
+                            <div
+                                class="row child-cols-12 justify-between items-center g-3 sm:g-4 text-center lg:text-start">
                                 <div class="lg:col-7 xl:col-6">
                                     <div class="vstack gap-1 sm:gap-2">
-                                        <h1 class="h3 sm:h2 xl:h1 m-0" data-anime="onview: -200; translateY: [10, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: 250;">
+                                        <h1 class="h3 sm:h2 xl:h1 m-0"
+                                            data-anime="onview: -200; translateY: [10, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: 250;">
                                             Automate Repetitive Tasks, <br>
-                                            <span class="text-primary dark:text-quaternary" data-uc-splitext="types: 'chars'" data-anime="onview: -100; targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50);">
+                                            <span class="text-primary dark:text-quaternary"
+                                                data-uc-splitext="types: 'chars'"
+                                                data-anime="onview: -100; targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50);">
                                                 Collaborate Seamlessly
                                             </span>
                                         </h1>
-                                        <p class="fs-6 xl:fs-5 text-gray-600 dark:text-white text-opacity-70" data-uc-splitext="types: 'words'" data-anime="onview: -100; targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});">Automate routine payments and bills with our intuitive and secure payment system.</p>
+                                        <p class="fs-6 xl:fs-5 text-gray-600 dark:text-white text-opacity-70"
+                                            data-uc-splitext="types: 'words'"
+                                            data-anime="onview: -100; targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});">
+                                            Automate routine payments and bills with our intuitive and secure payment
+                                            system.</p>
                                     </div>
                                 </div>
                                 <div class="lg:col-auto">
-                                    <div class="vstack gap-2 items-center" data-anime="onview: -100; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
-                                        <a class='btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 xl:px-7 w-auto' href='#demoRequest'>
+                                    <div class="vstack gap-2 items-center"
+                                        data-anime="onview: -100; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
+                                        <a class='btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 xl:px-7 w-auto'
+                                            href='#demoRequest'>
                                             <span>Get Free Demo</span>
                                         </a>
-                                        <span class="fs-7 dark:text-white text-opacity-75">No credit card required!</span>
+                                        <span class="fs-7 dark:text-white text-opacity-75">No credit card
+                                            required!</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="panel" data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450;">
+                        <div class="panel"
+                            data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450;">
                             <img src="/assets/images/doctorhms_dashboard.jpg" alt="Dashboard DoctorHMS">
                         </div>
                     </div>
@@ -1020,37 +1181,66 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="section-outer panel py-6 sm:py-8 xl:py-10 lg:mx-2">
                 <div class="container">
                     <div class="section-inner panel">
-                        <div class="section-heading panel vstack items-center gap-2 xl:gap-3 mb-6 sm:mb-8 xl:mb-9 max-w-700px mx-auto text-center" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
-                            <h2 class="h3 sm:h2 xl:h1 m-0">Have Questions? <span class="text-primary dark:text-quaternary">We Have Answers</span></h2>
-                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Common questions about Doctor HMS and how it can transform your hospital operations</p>
+                        <div class="section-heading panel vstack items-center gap-2 xl:gap-3 mb-6 sm:mb-8 xl:mb-9 max-w-700px mx-auto text-center"
+                            data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                            <h2 class="h3 sm:h2 xl:h1 m-0">Have Questions? <span
+                                    class="text-primary dark:text-quaternary">We Have Answers</span></h2>
+                            <p class="fs-6 xl:fs-5 text-gray-400 dark:text-gray-200">Common questions about Doctor HMS
+                                and how it can transform your hospital operations</p>
                         </div>
                         <div class="section-content panel">
                             <div class="row justify-center">
                                 <div class="col-12 lg:col-10 xl:col-8">
-                                    <div class="panel" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
-                                        <ul class="uc-accordion gap-3" data-uc-accordion="targets: > li; multiple: true; duration: 250;">
+                                    <div class="panel"
+                                        data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                        <ul class="uc-accordion gap-3"
+                                            data-uc-accordion="targets: > li; multiple: true; duration: 250;">
                                             <li class="panel p-3 lg:p-4 bg-gray-25 dark:bg-gray-800 rounded-2">
-                                                <a class="uc-accordion-title fs-6 lg:fs-5 fw-medium text-dark dark:text-white" href="#">How secure is the Doctor HMS system?</a>
+                                                <a class="uc-accordion-title fs-6 lg:fs-5 fw-medium text-dark dark:text-white"
+                                                    href="#">How secure is the Doctor HMS system?</a>
                                                 <div class="uc-accordion-content">
-                                                    <p class="fs-6 text-gray-600 dark:text-gray-300 mt-3">Doctor HMS employs industry-leading security measures including end-to-end encryption, multi-factor authentication, and full HIPAA compliance. Your patient data is protected with bank-level security protocols, and we conduct regular security audits to ensure the highest standards of data protection.</p>
+                                                    <p class="fs-6 text-gray-600 dark:text-gray-300 mt-3">Doctor HMS
+                                                        employs industry-leading security measures including end-to-end
+                                                        encryption, multi-factor authentication, and full HIPAA
+                                                        compliance. Your patient data is protected with bank-level
+                                                        security protocols, and we conduct regular security audits to
+                                                        ensure the highest standards of data protection.</p>
                                                 </div>
                                             </li>
                                             <li class="panel p-3 lg:p-4 bg-gray-25 dark:bg-gray-800 rounded-2">
-                                                <a class="uc-accordion-title fs-6 lg:fs-5 fw-medium text-dark dark:text-white" href="#">Can I migrate my existing hospital data to Doctor HMS?</a>
+                                                <a class="uc-accordion-title fs-6 lg:fs-5 fw-medium text-dark dark:text-white"
+                                                    href="#">Can I migrate my existing hospital data to Doctor HMS?</a>
                                                 <div class="uc-accordion-content">
-                                                    <p class="fs-6 text-gray-600 dark:text-gray-300 mt-3">Yes! We provide comprehensive data migration services to help you seamlessly transfer your existing patient records, staff information, and operational data. Our expert team will work with you to ensure a smooth transition with zero data loss and minimal downtime.</p>
+                                                    <p class="fs-6 text-gray-600 dark:text-gray-300 mt-3">Yes! We
+                                                        provide comprehensive data migration services to help you
+                                                        seamlessly transfer your existing patient records, staff
+                                                        information, and operational data. Our expert team will work
+                                                        with you to ensure a smooth transition with zero data loss and
+                                                        minimal downtime.</p>
                                                 </div>
                                             </li>
                                             <li class="panel p-3 lg:p-4 bg-gray-25 dark:bg-gray-800 rounded-2">
-                                                <a class="uc-accordion-title fs-6 lg:fs-5 fw-medium text-dark dark:text-white" href="#">Is there training available for my hospital staff?</a>
+                                                <a class="uc-accordion-title fs-6 lg:fs-5 fw-medium text-dark dark:text-white"
+                                                    href="#">Is there training available for my hospital staff?</a>
                                                 <div class="uc-accordion-content">
-                                                    <p class="fs-6 text-gray-600 dark:text-gray-300 mt-3">Absolutely! We provide comprehensive training programs including live webinars, video tutorials, documentation, and hands-on training sessions. Our support team is available 24/7 to help your staff get up to speed quickly and efficiently with all system features.</p>
+                                                    <p class="fs-6 text-gray-600 dark:text-gray-300 mt-3">Absolutely! We
+                                                        provide comprehensive training programs including live webinars,
+                                                        video tutorials, documentation, and hands-on training sessions.
+                                                        Our support team is available 24/7 to help your staff get up to
+                                                        speed quickly and efficiently with all system features.</p>
                                                 </div>
                                             </li>
                                             <li class="panel p-3 lg:p-4 bg-gray-25 dark:bg-gray-800 rounded-2">
-                                                <a class="uc-accordion-title fs-6 lg:fs-5 fw-medium text-dark dark:text-white" href="#">How does Doctor HMS integrate with our existing hospital systems?</a>
+                                                <a class="uc-accordion-title fs-6 lg:fs-5 fw-medium text-dark dark:text-white"
+                                                    href="#">How does Doctor HMS integrate with our existing hospital
+                                                    systems?</a>
                                                 <div class="uc-accordion-content">
-                                                    <p class="fs-6 text-gray-600 dark:text-gray-300 mt-3">Doctor HMS is designed to integrate seamlessly with most existing healthcare systems including EMR/EHR systems, laboratory equipment, imaging systems, and pharmacy management tools. We support standard healthcare data formats and protocols like HL7 and FHIR for easy integration.</p>
+                                                    <p class="fs-6 text-gray-600 dark:text-gray-300 mt-3">Doctor HMS is
+                                                        designed to integrate seamlessly with most existing healthcare
+                                                        systems including EMR/EHR systems, laboratory equipment, imaging
+                                                        systems, and pharmacy management tools. We support standard
+                                                        healthcare data formats and protocols like HL7 and FHIR for easy
+                                                        integration.</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -1063,11 +1253,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <span>View All FAQs</span>
                             </a>
                         </div> -->
-                        <div class="section-footer panel vstack gap-2 items-center mt-6 sm:mt-8 xl:mt-9" data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
-                            <a href="#demoRequest" class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
+                        <div class="section-footer panel vstack gap-2 items-center mt-6 sm:mt-8 xl:mt-9"
+                            data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;">
+                            <a href="#demoRequest"
+                                class="btn btn-md xl:btn-lg btn-primary dark:bg-quaternary dark:border-quaternary dark:text-dark fs-6 rounded-pill px-5 lg:px-7 w-auto">
                                 <span>Request a Demo</span>
                             </a>`
-                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps! Experience the Future of Healthcare!</span>
+                            <span class="fs-7 dark:text-white text-opacity-75">Get Started in Just 3 Easy Steps!
+                                Experience the Future of Healthcare!</span>
                         </div>
                     </div>
                 </div>
@@ -1078,88 +1271,113 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     </div>
-   <!-- Section start -->
-        <div id="demoRequest" class="hero-header section panel overflow-hidden">
-            <div class="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block" data-anime="targets: > *; scale: [0, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});">
-                <div class="position-absolute top-0 start-0 rotate-45" style="top: 30% !important; left: 18% !important;">
-                    <img class="w-32px dark:text-white" src="/assets/images/vectors/star-01.svg" alt="star-1" data-uc-svg>
-                </div>
-                <div class="position-absolute top-0 end-0 rotate-45" style="top: 15% !important; right: 18% !important;">
-                    <img class="w-24px dark:text-white" src="/assets/images/vectors/star-02.svg" alt="star-2" data-uc-svg>
-                </div>
+    <!-- Section start -->
+    <div id="demoRequest" class="hero-header section panel overflow-hidden">
+        <div class="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block"
+            data-anime="targets: > *; scale: [0, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});">
+            <div class="position-absolute top-0 start-0 rotate-45" style="top: 30% !important; left: 18% !important;">
+                <img class="w-32px dark:text-white" src="/assets/images/vectors/star-01.svg" alt="star-1" data-uc-svg>
             </div>
-            <div class="section-outer panel pt-9 lg:pt-10 pb-6 sm:pb-8 lg:pb-9">
-                <div class="container max-w-xl">
-                    <div class="section-inner panel mt-2 sm:mt-4 lg:mt-0" data-anime="targets: > *; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});">
-                        <div class="vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-750px mx-auto text-center">
-                            <h1 class="h2 sm:h1 lg:display-6 xl:display-5 m-0">Request a Demo</h1>
-                            <p class="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">Experience Doctor HMS firsthand. Fill in the form below and our team will set up a personalized demo to show you how our hospital management system can streamline your operations.</p>
-                        </div>
-                        <div class="panel rounded-3 overflow-hidden bg-secondary dark:bg-gray-800">
-                            <div class="panel row child-cols-12 lg:child-cols-6 g-0">
-                                <div class="order-1 lg:order-0">
-                                    <div class="panel overflow-hidden rounded-3 h-100 min-h-350px">
-                                        <figure class="panel h-100 m-0 rounded ">
-                                            <canvas class="h-100 w-100"></canvas>
-                                            <img class="media-cover image" src="/assets/images/customer_support_247.jpg" alt="Customer Support">
-                                        </figure>
-                                        <div class="position-cover text-white vstack justify-end p-4 lg:p-6 xl:p-9">
-                                            <div class="position-cover bg-gradient-to-t from-black to-transparent opacity-50"></div>
-                                            <div class="panel z-1">
-                                                <div class="vstack gap-3">
-                                                    <p class="fs-5 xl:fs-4 fw-medium">"Fill your details here for the Demo Request. Our 24/7 Customer Support is always here to help."</p>
-                                                    <div class="vstack gap-0">
-                                                        <p class="fs-6 lg:fs-5 fw-medium">Doctor HMS</p>
-                                                        <span class="fs-7 opacity-80">Customer Support</span>
-                                                    </div>
+            <div class="position-absolute top-0 end-0 rotate-45" style="top: 15% !important; right: 18% !important;">
+                <img class="w-24px dark:text-white" src="/assets/images/vectors/star-02.svg" alt="star-2" data-uc-svg>
+            </div>
+        </div>
+        <div class="section-outer panel pt-9 lg:pt-10 pb-6 sm:pb-8 lg:pb-9">
+            <div class="container max-w-xl">
+                <div class="section-inner panel mt-2 sm:mt-4 lg:mt-0"
+                    data-anime="targets: > *; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});">
+                    <div
+                        class="vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-750px mx-auto text-center">
+                        <h1 class="h2 sm:h1 lg:display-6 xl:display-5 m-0">Request a Demo</h1>
+                        <p class="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">Experience Doctor HMS
+                            firsthand. Fill in the form below and our team will set up a personalized demo to show you
+                            how our hospital management system can streamline your operations.</p>
+                    </div>
+                    <div class="panel rounded-3 overflow-hidden bg-secondary dark:bg-gray-800">
+                        <div class="panel row child-cols-12 lg:child-cols-6 g-0">
+                            <div class="order-1 lg:order-0">
+                                <div class="panel overflow-hidden rounded-3 h-100 min-h-350px">
+                                    <figure class="panel h-100 m-0 rounded ">
+                                        <canvas class="h-100 w-100"></canvas>
+                                        <img class="media-cover image" src="/assets/images/customer_support_247.jpg"
+                                            alt="Customer Support">
+                                    </figure>
+                                    <div class="position-cover text-white vstack justify-end p-4 lg:p-6 xl:p-9">
+                                        <div
+                                            class="position-cover bg-gradient-to-t from-black to-transparent opacity-50">
+                                        </div>
+                                        <div class="panel z-1">
+                                            <div class="vstack gap-3">
+                                                <p class="fs-5 xl:fs-4 fw-medium">"Fill your details here for the Demo
+                                                    Request. Our 24/7 Customer Support is always here to help."</p>
+                                                <div class="vstack gap-0">
+                                                    <p class="fs-6 lg:fs-5 fw-medium">Doctor HMS</p>
+                                                    <span class="fs-7 opacity-80">Customer Support</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="order-0 lg:order-1">
-                                    <form id="demoRequestForm" class="demo-form vstack gap-2 p-3 sm:p-6 xl:p-8" action="requestdemosubmit.html" method="POST" novalidate>
-                                        <p class="fs-6 text-dark dark:text-white text-opacity-70 mb-2">Fill in your details below and we'll schedule a personalized demo for you. Our healthcare technology experts will walk you through all the features of Doctor HMS.</p>
-                                        <div>
-                                            <input id="demo_name" name="name" class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white" type="text" placeholder="Your Name *" required >
-                                            <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                            <div class="order-0 lg:order-1">
+                                <form id="demoRequestForm" class="demo-form vstack gap-2 p-3 sm:p-6 xl:p-8"
+                                    action="requestdemosubmit.html" method="POST" novalidate>
+                                    <p class="fs-6 text-dark dark:text-white text-opacity-70 mb-2">Fill in your details
+                                        below and we'll schedule a personalized demo for you. Our healthcare technology
+                                        experts will walk you through all the features of Doctor HMS.</p>
+                                    <div>
+                                        <input id="demo_name" name="name"
+                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                            type="text" placeholder="Your Name *" required>
+                                        <div class="invalid-feedback">Please enter your name.</div>
+                                    </div>
+                                    <div>
+                                        <input id="demo_mobile" name="mobile"
+                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                            type="tel" placeholder="Mobile Number *" pattern="[0-9]{10,15}" required>
+                                        <div class="invalid-feedback">Please enter a valid mobile number (10-15 digits).
                                         </div>
-                                        <div>
-                                            <input id="demo_mobile" name="mobile" class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white" type="tel" placeholder="Mobile Number *" pattern="[0-9]{10,15}" required>
-                                            <div class="invalid-feedback">Please enter a valid mobile number (10-15 digits).</div>
-                                        </div>
-                                        <div>
-                                            <input id="demo_email" name="email" class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white" type="email" placeholder="Email *" required>
-                                            <div class="invalid-feedback">Please enter a valid email address.</div>
-                                        </div>
-                                        <div>
-                                            <input id="demo_hospital" name="hospital" class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white" type="text" placeholder="Hospital / Clinic / Lab Name *" required>
-                                            <div class="invalid-feedback">Please enter your Hospital/Clinic/Lab name.</div>
-                                        </div>
-                                        <div>
-                                            <input id="demo_place" name="place" class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white" type="text" placeholder="Place *" required>
-                                            <div class="invalid-feedback">Please enter your place/location.</div>
-                                        </div>
-                                        <button class="btn btn-primary btn-md text-white mt-2" type="submit">Request Demo</button>
-                                        <p class="text-center">For immediate assistance, email us at <a class="uc-link" href="mailto:support@doctorhms.com">support@doctorhms.com</a></p>
-                                    </form>
-                                </div>
+                                    </div>
+                                    <div>
+                                        <input id="demo_email" name="email"
+                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                            type="email" placeholder="Email *" required>
+                                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                                    </div>
+                                    <div>
+                                        <input id="demo_hospital" name="hospital"
+                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                            type="text" placeholder="Hospital / Clinic / Lab Name *" required>
+                                        <div class="invalid-feedback">Please enter your Hospital/Clinic/Lab name.</div>
+                                    </div>
+                                    <div>
+                                        <input id="demo_place" name="place"
+                                            class="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                                            type="text" placeholder="Place *" required>
+                                        <div class="invalid-feedback">Please enter your place/location.</div>
+                                    </div>
+                                    <button class="btn btn-primary btn-md text-white mt-2" type="submit">Request
+                                        Demo</button>
+                                    <p class="text-center">For immediate assistance, email us at <a class="uc-link"
+                                            href="mailto:support@doctorhms.com">support@doctorhms.com</a></p>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Section end -->
+    <!-- Section end -->
     <!-- Wrapper end -->
-    
+
     <!-- Footer start -->
     <footer id="uc-footer" class="uc-footer panel overflow-hidden ft-tertiary ">
-<!-- <div class="container">
+        <!-- <div class="container">
     <hr class="w-100 h-2px m-0">
 </div> -->
-<div class="footer-outer py-6 lg:py-8 xl:py-6 dark:text-white">
+        <div class="footer-outer py-6 lg:py-8 xl:py-6 dark:text-white">
             <div class="uc-footer-content">
                 <div class="container">
                     <div class="uc-footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
@@ -1207,9 +1425,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                         </div> -->
-                        <div class="uc-footer-bottom panel vstack sm:hstack gap-2 justify-between items-center text-center pt-4 border-top text-gray-400 dark:text-gray-200">
-                            <p>Doctor HMS © <script>document.write(new Date().getFullYear());</script>, All rights reserved.</p>
-                            . 
+                        <div
+                            class="uc-footer-bottom panel vstack sm:hstack gap-2 justify-between items-center text-center pt-4 border-top text-gray-400 dark:text-gray-200">
+                            <p>Doctor HMS ©
+                                <script>document.write(new Date().getFullYear());</script>, All rights reserved.
+                            </p>
+                            .
                             <ul class="nav-x gap-1">
                                 <li><a href='privacypolicy.html'>Privacy policy</a></li>
                                 <li class="mx-2 lg:mx-3"><a href='termsofuse.html'>Terms of use</a></li>
@@ -1329,9 +1550,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const getSchema = urlParams.get('schema');
-        if ( getSchema === 'dark' ) {
+        if (getSchema === 'dark') {
             setDarkMode(1);
-        } else if ( getSchema === 'light' ) {
+        } else if (getSchema === 'light') {
             setDarkMode(0);
         }
     </script>
